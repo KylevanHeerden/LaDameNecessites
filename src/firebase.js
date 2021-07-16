@@ -21,6 +21,7 @@ const db = firebase.firestore();
 
 // collection references
 const itemsCollection = db.collection("items");
+const eatAtHomeCollection = db.collection("eatAtHome");
 
 // export utils/refs
-export { firebase, db, itemsCollection };
+export { firebase, db, itemsCollection, eatAtHomeCollection };

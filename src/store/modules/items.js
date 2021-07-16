@@ -34,11 +34,5 @@ export default {
         }
       );
     },
-
-    removeItem({ dispatch }, itemId) {
-      fb.itemsCollection.doc(itemId).delete();
-
-      dispatch("getItems");
-    },
   },
 };
