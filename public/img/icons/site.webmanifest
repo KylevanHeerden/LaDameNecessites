@@ -1,6 +1,6 @@
 {
-    "name": "LaDame Necessit\u00e9s",
-    "short_name": "LaDame Necessit\u00e9s",
+    "name": "LaDame",
+    "short_name": "LaDame",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#e0b5a4",
-    "background_color": "#e0b5a4",
+    "theme_color": "#263238",
+    "background_color": "#263238",
     "display": "standalone"
 }

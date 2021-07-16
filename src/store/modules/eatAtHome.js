@@ -23,6 +23,7 @@ export default {
             let object = {
               id: doc.id,
               eatIn: doc.data().eatIn,
+              edit_date: doc.data().edit_date,
             };
             eatAtHome_array.push(object);
           });

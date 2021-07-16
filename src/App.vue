@@ -20,7 +20,7 @@ export default Vue.extend({
 
 <style>
 .app {
-  background-color: #e0b5a4;
+  background-color: var(--v-primary-base);
 }
 
 .row {

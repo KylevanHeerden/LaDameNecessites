@@ -1,11 +1,11 @@
 <template>
   <v-card elevation="1" class="itemCard">
     <v-card-text class="cardText">
-      <v-icon @click="checkItem()" color="black" class="checkIcon">{{
+      <v-icon @click="checkItem()" color="itemIcons" class="checkIcon">{{
         checkItemStatus
       }}</v-icon>
       <div class="text">{{ item.name }}</div>
-      <v-icon @click="deleteItem(item.id)" color="black" class="deleteIcon"
+      <v-icon @click="deleteItem(item.id)" color="itemIcons" class="deleteIcon"
         >delete</v-icon
       >
     </v-card-text>
@@ -53,7 +53,7 @@ export default Vue.extend({
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 10px;
-  background-color: #f5e4e0 !important;
+  background-color: var(--v-itemBar-base) !important;
   border-radius: 25px !important;
 }
 
@@ -69,7 +69,7 @@ export default Vue.extend({
 
 .text {
   flex: 2;
-  color: black;
+  color: var(--v-itemText-base);
 }
 
 .deleteIcon {

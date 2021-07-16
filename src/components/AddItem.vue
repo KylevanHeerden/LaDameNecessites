@@ -3,7 +3,7 @@
     <v-row>
       <v-text-field
         v-model="newItem.name"
-        color="black"
+        color="text2"
         placeholder="Ons benodig..."
         class="newItem"
       >
@@ -14,10 +14,10 @@
         elevation="0"
         fab
         small
-        color="rgba(0,0,0,0)"
+        color="primary"
         class="addBtn"
       >
-        <v-icon dark> mdi-plus </v-icon>
+        <v-icon color="itemText lighten-2"> mdi-plus </v-icon>
       </v-btn>
     </v-row>
   </v-container>
@@ -55,6 +55,5 @@ export default Vue.extend({
 .addBtn {
   margin-top: 1.5rem;
   margin-right: 1rem;
-  border: rgba(0, 0, 0, 0.2) 1px solid !important;
 }
 </style>
